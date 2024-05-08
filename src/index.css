@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  font-family: "Barlow", sans-serif;
+}
+body {
+  background: #1F1D2B;
+}
+.categoryFilter{
+  &:hover{
+      color: #EA7C69;
+    border-bottom: 1px solid #EA7C69;
+    button{
+      color:#EA7C69
+    };
+  }
+}
